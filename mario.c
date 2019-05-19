@@ -32,7 +32,7 @@ void pyramide(int n)
     string middle = "  ";
     for(int i = 0; i < n; i ++)
     {
-        conca(space, n - i);
+        conca(space, n - i - 1);
         conca(bloc, i);
         printf("%s",middle);
         conca(bloc,i);
